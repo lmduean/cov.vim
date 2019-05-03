@@ -33,7 +33,7 @@ func! ShowCOV(...)
   let fileExistsCheck = filereadable(htmlName)
   if (fileExistsCheck == 0)
     !whiptail --title "No corresponding *.gcov.html Found" --msgbox "Please make
-    \ sure the current file has c/c++ code blocks and you have built
+    \ sure the current file has c/c++ code implement blocks and you have built
     \ coverage report with \":COVRBLT\"." 10 48
   else
     execute "!w3m " . htmlName
