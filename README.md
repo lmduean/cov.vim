@@ -1,4 +1,4 @@
-cop.vim
+cov.vim
 =======
 Introduction
 ------------
